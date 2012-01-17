@@ -34,7 +34,7 @@ app.views.CommentStream = app.views.Base.extend({
   },
 
   appendComment: function(comment) {
-    this.$("ul.comments").append(new app.views.Comment({
+    this.$(".comments").append(new app.views.Comment({
       model: comment
     }).render().el);
   },

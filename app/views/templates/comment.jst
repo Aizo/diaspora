@@ -12,17 +12,8 @@
 </a>
 
 <div class="content">
-  <span class="from">
-    <a href="/people/<%= author.id %>">
-      <%= author.name %>
-    </a>
-  </span>
-
   <div class="collapsible">
     <%= text %>
   </div>
-
-  <div class="comment_info">
-    <time class="timeago" datetime="<%= created_at %>"/>
-  </div>
+  <time class="timeago" datetime="<%= created_at %>"/>
 </div>
