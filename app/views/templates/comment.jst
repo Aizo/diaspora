@@ -1,9 +1,7 @@
 <div class="right controls">
   <!-- need access to post -->
   <% if(author.id === current_user.id) { %>
-    <a href="#" class="delete comment_delete" title="<%= Diaspora.I18n.t('delete') %>">
-      <img alt="Deletelabel" src="/images/deletelabel.png" />
-    <a/>
+    <img class="delete comment_delete" alt="Deletelabel" src="/images/black-close-icon.png" title="<%= Diaspora.I18n.t('delete') %>" />
   <% } %>
 </div>
 
